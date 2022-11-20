@@ -1,5 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Digital';
+    src: url('/fonts/digitalism.ttf');
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+.scroll
+{
+    font-size: 30px;
+    font-family: 'Digital';
+    font-weight:bolder;
+    letter-spacing: 3px;
+    padding: 20px;
+    background-color: transparent;
+    cursor: grab;
+    border: none;
+   
+}
+
+
+.full-page-image{
+   
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url('/images/cryptography.jpg');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    /* position: center; */
+    width: 100%;
+    height: 100vh;
+    /* box-shadow: 2px 2px 30px rgba(0,0,0,0.1); */
+    /* background-color: #ffffff; */
+}
+
